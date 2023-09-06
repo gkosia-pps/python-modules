@@ -1,0 +1,12 @@
+Hello {{name}} time is {{time}}
+
+{% if age < 30 %}
+{{name}} you are young
+{% else %}
+{{name}} you are old
+{% endif %}
+
+
+{%for member in loop_ex %}
+{{member.name}} is {{member.age}} years old
+{%endfor%}
